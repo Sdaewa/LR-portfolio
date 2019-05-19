@@ -2,5 +2,7 @@
 body{
     background:#D3D0CB;
     color:#6E8898;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
 }
