@@ -1,7 +1,7 @@
 /* Colors and fonts */
 
 body {
-    background: #D3D0CB;
+    background: white;
     color: #6E8898;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
@@ -31,3 +31,40 @@ a {
 a:hover {
     color: #2E5266;
 }
+
+/* custom design */
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+.first-block {
+    background-color: #9FB1BC;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.img-circle {
+    border-radius: 500px;
+}
+
+.container-2 {
+    background-color: #9FB1BC;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+.web-btn {
+ background-color: #E2C044;
+ color: #2E5266;
+ padding: 8px 8px;
+ border-radius: 50px;
+ font-size: 16px;
+}
+
