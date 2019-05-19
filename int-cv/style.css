@@ -1,8 +1,27 @@
 /* Colors and fonts */
-body{
+body {
     background:#D3D0CB;
     color:#6E8898;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     font-weight: lighter;
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+}
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3 {
+    color: #2E5266;
+}
+a { 
+    font-family: 'monserrat', sans-serif;
+    color:#9FB1BC;
+    text-decoration: none;
+    font-weight: 600px;
+    font-size: 16;
+}
+a:hover {
+color: #2E5266;
 }
