@@ -52,7 +52,15 @@ a:hover {
     border-radius: 500px;
 }
 
-.container-2 {
+.block {
+    background-color: #9FB1BC;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+.blocks {
     background-color: #9FB1BC;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -67,4 +75,20 @@ a:hover {
  border-radius: 50px;
  font-size: 16px;
 }
-
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+  
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 50px;
+    color:#E2C044;
+}
+.list-inline i:hover {
+    color:#2E5266;
+}
+  
