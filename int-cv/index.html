@@ -1,198 +1,160 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,600&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Curriculum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My Resume</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
 </head>
 
-<body>
-    <div class="banner"
-        style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1393&q=80);">
+<body id="page-top">
 
-        <div class="image-circle">
-            <img src="images/luis.jpeg" alt="profile photo" class="img-circle" width="200px">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#page-top">Luis Ramirez</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#about">About</a>
+            </li>
+            <!-- <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#services">What I Offer</a>
+            </li> -->
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1">Luis Ramirez </h1>
+            <h3 class="mb-5">
+                <em>Junior Full-Stack Developer</em>
+            </h3>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
+        <div class="overlay"></div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>My Stack</h2>
+                    <p class="lead mb-5"> Ruby - Ruby on Rails - JavaScript ES6 - SQLite/PostgreSQL - HTML5 - CSS/Sass -
+                        Git - Github - TDD - MVC Architecture - Heroku </p>
+                    <h2>Other Skills</h2>
+                    <p class="lead mb-5">Arduino - Raspberry Pi - Prototyping </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
         <div class="container">
-            <h1>Hello! <strong>I'm Luis</strong> a <strong>Junior Full-Stack Developer</strong></h1>
-            <p>I have recently ​graduated from Le Wagon’s Ruby on Rails coding bootcamp in London.​
-                Having worked in a high-paced environment where problems arise multiple times a day​, I am equipped
-                witha unique
-                blend of the highest level of professionalism, coding skills and an appreciation for excellency.
-                I want to be in an environment where I am challenged ​and have the chance to improve my programming
-                skills.</p>
-        </div>
-    </div>
-
-    <div class="card-category"
-        style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1519734004356-f588de029302?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)">
-        <h2>My Stack</h2>
-        <div class="list">
-            <ul class="list-inline">
-                <li>Ruby</li>
-                <li>Ruby on Rails</li>
-                <li>JavaScript ES6/Node.js</li>
-                <li>SQLite/PostgreSQL</li>
-                <li>HTML5</li>
-                <li>CSS/Sass</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>TDD</li>
-                <li>MVC Architecture</li>
-                <li>Heroku</li>
-            </ul>
-        </div>
-
-    </div>
-    <!-- 
-        <div class="block">
-            <h2>Relevant Work Experience</h2>
-            <h3>Cyclehoop LTD/Senior Logistics Supervisor</h3>
-            <p>January 2016 - December 2018, LONDON, United Kingdom</p>
-        </div>
-    </div> -->
-    <div class="div">
-        <h2>These are my projects</h2>
-    </div>
-    <div class="cards">
-        <div class="card-category"
-            style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
-            <h3>Sessions Therapy</h3>
-            <a href="http://sessionstherapy.co.uk" target="blank" class="web-btn">Check it out</a>
-            <a href="https://github.com/Sdaewa/sessions" target="blank" class="web-btn">GitHub Repo</a>
-        </div>
-
-        <div class="card-category"
-            style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg)">
-            <h3>Fresh Butler</h3>
-            <a href="https://github.com/Sdaewa/fresh_butler" target="blank" class="web-btn">GitHub Repo</a>
-        </div>
-
-        <div class="card-category"
-            style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/dinner.jpg)">
-            <h3>This Curriculum</h3>
-            <a href="https://github.com/Sdaewa/int-cv" target="blank" class="web-btn"> Github Repo</a>
-        </div>
-    </div>
-    <div class="example">
-        <div class="title">
-            <h2>My Education</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="timeline">
-                    <dl>
-                        <dd class="pos-right clearfix">
-                            <div class="circ"></div>
-                            <div class="time">March</div>
-                            <div class="events">
-                                <div class="pull-left">
-                                </div>
-                                <div class="events-body">
-                                    <h4 class="events-heading">Le Wagon Coding School/London, United Kingdom</h4>
-                                    <p>Le Wagon Full-Stack Ruby on Rails intensive coding bootcamp learning R​ uby on
-                                        Rails​, ​HTML5​, ​CSS/Sass​, ​Bootstrap​, ​JavaScript​, ​ jQuery,​ ​SQL,​ ​
-                                        PostgreSQL,​ MVC architecture,​ ​TDD​, ​ git​,​ GitHub​, ​ Heroku.​</p>
-                                </div>
-                            </div>
-                        </dd>
-                        <dd class="pos-left clearfix">
-                            <div class="circ"></div>
-                            <div class="time">January</div>
-                            <div class="events">
-                                <div class="pull-left">
-
-                                </div>
-                            </div>
-                        </dd>
-                        <dt>2019</dt>
-                        <dt>2011</dt>
-                        <dd class="pos-left clearfix">
-                            <div class="circ"></div>
-                            <div class="time"></div>
-                            <div class="events">
-                                <div class="pull-left">
-                                </div>
-                                <div class="events-body">
-                                    <h4 class="events-heading">Zaragoza University/Zaragoza, Spain</h4>
-                                    <p>Telecomunications Engineering</p>
-                                </div>
-                            </div>
-                        </dd>
-                        <dt>2009</dt>
-                    </dl>
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-0">Portfolio</h3>
+                <h2 class="mb-5">Recent Projects</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2>Sessions Therapy</h2>
+                                <p class="mb-0">Bringing psychological therapies to everyone, everywhere</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="img/therapy.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <span class="caption">
+                            <span class="caption-content">
+                                <h2>Fresh Butler</h2>
+                                <p class="mb-0">Throwing a big event? Maybe need some staff for your brand new yatch? We
+                                    got you covered!</p>
+                            </span>
+                        </span>
+                        <img class="img-fluid" src="img/butler.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="example">
-            <div class="title">
-                    <h2>Relevant Working Experience</h2>
-                </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="timeline">
-                    <dl>
-                        <dt>2018</dt>
-                        <dd class="pos-right clearfix">
-                            <div class="circ"></div>
-                            <div class="time">March</div>
-                            <div class="events">
-                                <div class="pull-left">
-                                </div>
-                                <div class="events-body">
-                                    <h4 class="events-heading">Cyclehoop Ltd./London, United Kingdom</h4>
-                                    <p><strong>Logistics Supervisor</strong>/Overseeing the transportation of products
-                                        in optimal conditions from the warehouse to their destination as well as
-                                        managing and ensuring the personnel had everything they need it in order to
-                                        better perform their jobs.</p>
-                                </div>
-                            </div>
-                        </dd>
-                        <dd class="pos-left clearfix">
-                            <div class="circ"></div>
-                            <div class="time">December</div>
-                            <div class="events">
-                                <div class="pull-left">
-                                </div>
-                            </div>
-                        </dd>
-                        <dt>2016</dt>
-                    </dl>
-                </div>
-            </div>
+    </section>
+
+    <!-- Callout -->
+    <section class="callout">
+        <div class="container text-center">
+            <h2 class="mx-auto mb-5">Get a copy of my <em>full resume</em></h2>
+            <a class="btn btn-primary btn-xl" href="img/cv.pdf" download>Download</a>
         </div>
-    </div>
+    </section>
 
 
-
-    <div class="footer">
-        <div class="footer-links">
-            <ul class="list-inline">
-                <li>
-                    <p>+447490368002</p>
-                </li>
-                <li>
-                    <a href="https://github.com/sdaewa" target="_blank">
-                        <i class="fab fa-github"></i>
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3"
+                        href="https://www.linkedin.com/in/luisramirez91" target="_blank">
+                        <i class="icon-social-linkedin"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="https://linkedin.com/in/luisramirez91" target="_blank"><i class="fab fa-linkedin"></i>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" href="https://github.com/sdaewa" target="_blank">
+                        <i class="icon-social-github"></i>
                     </a>
-                </li>
-                <li>
-                    <p>sdaewa22@gmail.com </p>
                 </li>
             </ul>
+            <p class="text-muted small mb-0">sdaewa22@gmail.com</p>
         </div>
-    </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
 
 </body>
 
